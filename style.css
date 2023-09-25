@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/clinica.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    max-width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(237, 237, 237, 0.885) 0%, rgba(237, 237, 237, 0.885) 100%);
+    box-shadow: 5px 10px 18px #888888;
+    display: grid;
+    padding-bottom: 10px;
+  
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    width: 90%;
+    color: #000;
+    margin: 15px;
+    height: 30px;
+    font-size: 22px;
+    display: inline;
+    position: relative;
+    top: -33px;
+    
+}
+
+label{
+    color:#585858;
+    font-size: 14px;
+}
+
+
+
+.logo {
+    width: 120px;
+    height: 47.45px;
+    border-radius: 7px;
+    opacity: 0.9;
+    box-shadow: 1px 1px 5px #888888;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.topo {
+    display: inline-block;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input{
+    height: 15px;
+}
+
+input:hover, textarea:hover, select:hover, button:hover{
+    box-shadow: 1px 1px 5px #888888;
+}
+
+
+select {
+    height: 25px;
+}
+
+textarea {
+    height: 70px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
